@@ -143,14 +143,14 @@
         <h2>Contact me</h2>
       </div>
       <div class="contactp" id="cont">
-        <form class="contactc" action="">
+        <form class="contactc" action="https://formsubmit.co/aswanth6000@gmail.com" method="POST"  name="contact-form" onsubmit="validate()">
           <label for="name">Name:</label><br>
-          <input type="text" id="name" placeholder="Enter your name" required><br>
+          <input type="text" id="name" placeholder="Enter your name" name="nam"><br>
           <label for="email">Email:</label><br>
-          <input type="email" id="email" placeholder="Enter your email" required><br>
+          <input type="email" id="email" placeholder="Enter your email" name="mail"><br>
           <label for="message">Message:</label><br>
-          <textarea id="message" placeholder="Enter your message" required></textarea><br>
-          <Button onclick="snd()">Send <i class="bi bi-send-fill"></i></Button>
+          <textarea id="message" placeholder="Enter your message" name="msg"></textarea><br>
+          <button type="submit" onclick="snd()" id="btn">Send <i class="bi bi-send-fill"></i></button>
         </form>
           <div class="details" id="socials">
             <div class="detailsh">
