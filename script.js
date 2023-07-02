@@ -1,10 +1,6 @@
 dow = () => {
     window.alert("File downloaded ");
 }
-snd = () => {
-    window.alert("Send successfully ");
-    location.reload();
-}
 validate = () => {
     let x = document.forms["contact-form"]["nam"].value;
     if(x==""){

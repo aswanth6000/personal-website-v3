@@ -145,12 +145,12 @@
       <div class="contactp" id="cont">
         <form class="contactc" action="https://formsubmit.co/aswanth6000@gmail.com" method="POST"  name="contact-form" onsubmit="validate()">
           <label for="name">Name:</label><br>
-          <input type="text" id="name" placeholder="Enter your name" name="nam"><br>
+          <input type="text" id="name" placeholder="Enter your name" name="nam" required><br>
           <label for="email">Email:</label><br>
-          <input type="email" id="email" placeholder="Enter your email" name="mail"><br>
+          <input type="email" id="email" placeholder="Enter your email" name="mail" required><br>
           <label for="message">Message:</label><br>
-          <textarea id="message" placeholder="Enter your message" name="msg"></textarea><br>
-          <button type="submit" onclick="snd()" id="btn">Send <i class="bi bi-send-fill"></i></button>
+          <textarea id="message" placeholder="Enter your message" name="msg" required></textarea><br>
+          <button type="submit" onclick="validate()" id="btn">Send <i class="bi bi-send-fill"></i></button>
         </form>
           <div class="details" id="socials">
             <div class="detailsh">
