@@ -318,6 +318,13 @@ nav{
     .contactc textarea{
         width: 80%;
     }
+    .detailslink{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 1%;
+    justify-content: center;
+    }
 
   }
   @media (min-width: 768px) and (max-width: 991px) {
